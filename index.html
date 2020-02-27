@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <title>Basic Web Technologies</title>
+    <meta name="description" content="A basic introduction to web technologies">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS WebSlides -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://kieranwood.ca/basic-html"> <!-- TODO YOUR URL -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Static Site Hosting done easily"> 
+    <meta property="og:description" content="A basic introduction to web technologies">
+    <meta property="og:updated_time" content="2020-02-20T17:20:50">
+    <meta property="og:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Static Site Hosting done easily"> 
+    <meta name="twitter:description" content="A basic introduction to web technologies"> 
+    <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#f0f0f0">
+
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <p class="logo"><a href="https://canadiancoding.ca" target="_blank" title="Canadian Coding">Canadian Coding</a></p>
+        <ul>
+          <li>
+            <a rel="external" href="https://github.com/descent098/basic-web-technologies" title="Github" target="_blank">
+              <img src="./static/images/logos/github-logo.png" alt="source-code">
+              <em>Source Code</em>
+            </a>
+          </li>
+          <li>
+            <a rel="external" href="https://www.youtube.com/channel/UC1-WbwQ1sAVZ3AVmrXcBwGw" title="YouTube" target="_blank">
+              <img src="./static/images/logos/youtube-logo.png" alt="source-code">
+              <em>Youtube Channel</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <article id="webslides" class="vertical">
+
+        <section>
+        <span class="background" style="background-image:url('./static/images/intro.png')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1 class="text-landing"><strong>Basic Web Technologies</strong></h1>
+            <h3 >The basics of how webpages work</h3>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!--Anatomy of a webpage-->
+        <section class="bg-brown">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2 class="text-landing"><strong>Anatomy of a webpage</strong></h2>
+            <h5 >Webpages consist (mostly) of 3 main components</h5>
+            <ul class="flexblock features">
+              <li><h5>HTML </h5><p>The Skeleton of a webpage (nouns)</p></li>
+              <li><h5>JavaScript </h5><p>The muscles/nervous system of a webpage (verbs)</p></li>
+              <li><h5>CSS</h5><p>The skin/clothes of a webpage (adjectives)</p></li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2 class="text-landing"><strong>HTML</strong></h2>
+            <p >Any nouns on a webpage are typically html (i.e. that <strong>block of text</strong>, that <strong>image</strong> etc.)</p>
+            
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>What Does HTML Do?</strong></h2>
+            <p>HTML is a <strong>markup language</strong>, this means it's only job is to say how <strong>data</strong> should be <strong>organized</strong>. <em>None</em> of the data processing takes place in HTML</p>
+            
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>How do you write HTML?</strong></h2>
+            <p>HTML is a collection of tags and attributes, tags are the most general way of saying how you want something to appear and attributes set special behaviors for tags</p>
+            <p>Each tag has an <strong>opening tag</strong> (&lt;tag&gt;) that is two angle brackets with the tag name inside. Followed by the content of the tag (i.e. some text), and finally the closing tag which is the same as an opening tag with a forward slash (&lt;/tag&gt;)</p>
+            <p>Any attributes are added in the opening tag before the second angle bracket; &lt;tag attribute='value'&gt;&lt;/tag&gt;</p>
+            
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>HTML Example</strong></h2>
+            <div class="column">
+              <pre>&lt;p&gt;This html gives you regular text&lt;/p&gt;
+&lt;h6&gt;and this html gives you larger text&lt;/h6&gt;</pre>
+              <h4>Which results in: </h4><br>
+              <p>This html gives you regular text</p>
+              <h6>and this html gives you larger text</h6>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>Here are some common HTML tags</strong></h2>
+            <h4>But first, if you ever see &lt;!-- some helpful text --&gt; this is a comment in HTML it's just there for your benefit the browser ignores it</h4>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>Heading Tags</strong></h2>
+            <p>Heading tags are used to create larger text, they are a h with a number and get smaller as the number gets larger</p>
+            <h2>&lt;h2&gt;Heading 2&lt;/h2&gt;</h2>
+            <h3>&lt;h3&gt;Heading 3&lt;/h3&gt;</h3>
+            <h4>&lt;h4&gt;Heading 4&lt;/h4&gt;</h3>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>Paragraph Tags</strong></h2>
+            <p>Paragraph tags are used to create smaller sized text and typically contain longer content, they are denoted with a p</p>
+            <p>&lt;p&gt;paragraph tags&lt;/p&gt;</p>
+            <br>
+            <p>Also <em>emphasis</em> (&lt;em&gt;) and <strong>strong</strong> (&lt;strong&gt;) tags can be put inside paragraph tags to add italicization and bolding</p>
+            <p>Likewise anchor tags (&lt;a&gt;) can be used to add links in text (with a href attribute); &lt;a href='https://google.ca'&gt;google&lt;/a&gt; gives you: <a href="https://google.ca">google</a></p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>List Tags</strong></h2>
+            <p>You can make a bullet point (unordered) and/or numbered (ordered) list in HTML using the ul and ol tags with list item (&lt;li&gt;) tags inside <br>Example:</p>
+            <div class="column">
+              <pre>&lt;ul&gt; 
+&lt;li&gt; A &lt;/li&gt;
+&lt;li&gt; B &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt; 
+&lt;li&gt; C &lt;/li&gt;
+&lt;li&gt; D &lt;/li&gt;
+&lt;/ol&gt;</pre>
+              <h4>Which results in: </h4>
+
+
+            </div>
+
+          </div>
+          <ul> 
+            <li> A </li>
+            <li> B </li>
+            </ul>
+            <ol> 
+              <li> C </li>
+              <li> D </li>
+              </ol>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-facebook"> <!--The bg-facebook thing is not part of HTML it's part of what i'm using to make these slides-->
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>Divider Tags</strong></h2>
+            <p>Divider (usually called div) tags are used to organize other groups of tags together, for example all the text in this slide is inside a &lt;div&gt;</p>
+            
+            <p>Some people also use section tags; &lt;section&gt; to do a similar thing. These slides actually use a section tag with a div inside it:</p>
+            <div class="column">
+              <pre>&lt;section class='bg-facebook'&gt;&lt!--The bg-facebook thing is not part of HTML it's part of what i'm using to make these slides--&gt;
+  &lt;div&gt;    
+    &lt;h2&gt;&lt;strong&gt;Divider Tags&lt;/strong&gt; &lt;/h2&gt;
+    &lt;p&gt; Divider (usually called div) tags are used to organize other groups of tags together, for example all the text in this slide is inside a &lt;div&gt; &lt;/p&gt; 
+    &lt;p&gt; Some people also use section tags; &lt;section&gt; to do a similar thing. These slides actually use a section tag with a div inside it:&lt;/p&gt; 
+    ...
+  &lt;/div&gt;              
+&lt;/section&gt;</pre>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-facebook">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>Image Tags</strong></h2>
+            <p>Last but not least are image tags, these are special tags because they don't need to be ended and all they need is a <em>src</em> attribute with a path to the image you want to use (also width and height are useful attributes)</p>
+            <pre>&lt;img src='./path/to/image.png' height='300px' width='300px'&gt;</pre>
+            <br>
+          <img src='./path/to/image.png' height='300px' width='300px'>
+          </div>
+          
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-red">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>JavaScript</strong></h2>
+            <h4>Any verbs on the website are typically JavaScript (i.e. That <strong>disappearing </strong>navigation bar, that <strong>transition animation</strong> etc.)</h4>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-red">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>What Does JavaScript Do?</strong></h2>
+            <p>JavaScript is an <strong>in page</strong> programming language, meaning anything that happens on a webpage without needing to reload is typically JavaScript</p>
+            <P>For example the slide transitions on this presentation are all in JavaScript</P>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-red">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h2><strong>How do you use Javascript?</strong></h2>
+            <p>I'm not going to go through how to write JavaScript since it's an entire language (check out this <a href="https://www.w3schools.com/js/" target="_blank">website</a>, or this <a href="https://www.youtube.com/watch?v=hdI2bqOjy3c" target="_blank">video</a> for that)</p>
+            <p>Instead i'm going to show you how to use existing JavaScript in a webpage</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!--Questions-->
+        <section>
+          <div class="wrap">
+            <div class="content-center text-serif">
+              <h2 class="text-landing">
+                <strong>Questions?</strong>
+              </h2>
+              
+              <p>If you have questions submit them:</p>
+              <a role="button" href="https://kieranwood.ca/#contact" target="_blank">Ask Questions</a> 
+              <!--TODO: add links-->
+              </div>
+            <!-- .end .content-right -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
