@@ -3075,6 +3075,9 @@ svg {
 [class*='bg-gradient-'] a {
   color: #bce; }
 
+  [class*='bg-facebook'] a{
+    color: red; }
+
 .bg-brown a {
   color: #c23; }
 
@@ -3170,7 +3173,7 @@ Slides - Backgrounds <section class="bg-primary">
   background-color: #62b; }
 
 .bg-red {
-  background-color: #c23; }
+  background-color: #bb7b81; }
 
 .bg-white {
   background-color: #fff; }
